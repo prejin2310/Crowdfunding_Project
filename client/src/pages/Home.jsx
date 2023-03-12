@@ -21,9 +21,10 @@ const Home = () => {
   return (
     <div>
       <DisplayCampaigns 
-      title="All Campaigns"
-      isLoading={isLoading}
-      campaigns={campaigns}/>
+        title="All Campaigns"
+        isLoading={isLoading}
+        campaigns={campaigns}
+      />
     </div>
   )
 }
